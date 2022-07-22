@@ -44,7 +44,7 @@ body{
 
 #showcase{
     background-image: url(../images/lights.jpg);
-    background-position:center right;
+    background-position:;
     min-height:300px;
     margin-bottom:30px;
     text-align: center;
@@ -63,11 +63,22 @@ body{
     width:70%;
     padding:30px;
     box-sizing: border-box;
-}
+} 
 
 #sidebar {
     float:right;
     width:30%;
+    background-color: #333;
+    color:#f4f4f4;
     padding: 0 30px;
     box-sizing: border-box;
+}
+
+#main-footer{
+    background-color: black;
+    color:#f4f4f4;
+    margin-top:40px;
+    padding:30px;
+    text-align: center;
+    
 }
